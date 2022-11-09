@@ -56,8 +56,8 @@ const userData = {
       `Despite my experience in the software realm, I also have a penchant for product design in the physical world. I have taught myself 3D modeling using Fusion360 and have brought these models into reality using my 3D printer. Beyond the design of the models themselves, I will frequently construct projects that involve some kind of electronic hardware (e.g. Arduinos, Raspberry Pis, etc.). Everything from the soldering of wires and PCBs to the design of the software, I do it all. Sometimes with great success and sometimes with less success: but all of which provides for a valuable learning experience.`,
       `Beyond these pursuits, I spend a great deal of my spare time DJ'ing and producing music. My wife and I host a monthly radio show on Eaton Radio here in D.C., and I play live around the area as well (mainly doing all-vinyl sets). I make my own music within Ableton, but do also enjoy using hardware synthesizers on ocassion (namely my Yamaha SY77).`,
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "",
+    currentProjectUrl: "",
   },
   experience: [
     {
