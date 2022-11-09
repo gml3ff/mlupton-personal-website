@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
+  githubUsername: "gml3ff",
+  name: "Morgan Lupton",
+  designation: "Sales Engineer",
   avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "morgan@lupton.io",
+  phone: "+1 434 209 0123",
+  address: "Washington, D.C., United States",
   projects: [
     {
       title: "Tailwind Master Kit",
