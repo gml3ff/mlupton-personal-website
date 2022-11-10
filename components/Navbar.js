@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
       <div className="flex md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
@@ -32,7 +32,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-12 hidden md:block">
           <Link href="/about">
             <a
               className={`text-2xl  ${
@@ -59,16 +59,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/projects">
+          <Link href="/experience">
             <a
               className={`text-2xl  ${
-                router.asPath === "/projects"
+                router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              Projects
-              {router.asPath === "/projects" && (
+              Experience{" "}
+              {router.asPath === "/experience" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -85,16 +85,16 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/experience">
+          <Link href="/projects">
             <a
               className={`text-2xl  ${
-                router.asPath === "/experience"
+                router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              Experience{" "}
-              {router.asPath === "/experience" && (
+              Projects
+              {router.asPath === "/projects" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -251,14 +251,14 @@ export default function Navbar() {
             About
           </a>
         </Link>
-        <Link href="/projects">
-          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
-            Projects
-          </a>
-        </Link>
         <Link href="/experience">
           <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             Experience
+          </a>
+        </Link>
+        <Link href="/projects">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
+            Projects
           </a>
         </Link>
         <Link href="/music">

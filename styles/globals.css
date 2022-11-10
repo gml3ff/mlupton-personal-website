@@ -6,13 +6,19 @@
 
 #mainPageLink {
   background-color: #ccffff;
-  border-style: dotted;
+  border-style: ridge;
   padding: 10px;
+  /*border-color: black;*/
+  border-width: 1px;
+  border-radius: 8px;
 }
 
 #mainPageLink:hover {
   background-color: #00b3b3;
-  border-style: dotted;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 8px;
+  /*border-color: black;*/
 }
 
 html,
