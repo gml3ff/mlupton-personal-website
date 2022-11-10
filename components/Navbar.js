@@ -16,16 +16,16 @@ export default function Navbar() {
 
   return (
     <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+      <div className="flex md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
-        <div className="flex flex-col">
+        <div className="flex flex-col" id="mainPageLink">
           <Link href="/">
             <a>
               <h1 className="font-semibold text-2xl dark:text-gray-100">
                 {userData.name}
               </h1>
-              <p className="text-xl font-light text-gray-500 dark:text-gray-300">
+              <p className="text-l font-light text-gray-500 dark:text-gray-300">
                 {userData.designation}
               </p>
             </a>

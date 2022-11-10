@@ -4,6 +4,17 @@
 
 @import 'fonts.css';
 
+#mainPageLink {
+  background-color: #ccffff;
+  border-style: dotted;
+  padding: 10px;
+}
+
+#mainPageLink:hover {
+  background-color: #00b3b3;
+  border-style: dotted;
+}
+
 html,
 body {
   padding: 0;

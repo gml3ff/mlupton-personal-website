@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "gml3ff",
-  name: "Morgan Lupton",
-  designation: "Sales Engineer",
+  name: "lupton.io",
+  designation: "A Personal Homepage",
   avatarUrl: "/avatar.png",
   email: "morgan@lupton.io",
   phone: "+1 434 209 0123",
