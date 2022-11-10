@@ -22,10 +22,10 @@ export default function Navbar() {
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
+              <h1 className="font-semibold text-2xl dark:text-gray-100">
                 {userData.name}
               </h1>
-              <p className="text-base font-light text-gray-500 dark:text-gray-300">
+              <p className="text-xl font-light text-gray-500 dark:text-gray-300">
                 {userData.designation}
               </p>
             </a>
@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           <Link href="/about">
             <a
-              className={`text-base  ${
+              className={`text-2xl  ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
@@ -61,7 +61,7 @@ export default function Navbar() {
           </Link>
           <Link href="/projects">
             <a
-              className={`text-base  ${
+              className={`text-2xl  ${
                 router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
@@ -87,7 +87,7 @@ export default function Navbar() {
           </Link>
           <Link href="/experience">
             <a
-              className={`text-base  ${
+              className={`text-2xl  ${
                 router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
@@ -113,7 +113,7 @@ export default function Navbar() {
           </Link>
           <Link href="/music">
             <a
-              className={`text-base  ${
+              className={`text-2xl  ${
                 router.asPath === "/music"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
@@ -139,7 +139,7 @@ export default function Navbar() {
           </Link>
           <Link href="/contact">
             <a
-              className={`text-base  ${
+              className={`text-2xl  ${
                 router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
@@ -168,7 +168,7 @@ export default function Navbar() {
         <div className="space-x-4 flex flex-row items-center">
           <a
             href={userData.socialLinks.instagram}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-2xl font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.twitter}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-2xl font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ export default function Navbar() {
           </a>
           <a
             href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-2xl font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -247,27 +247,27 @@ export default function Navbar() {
       </div>
       <div className="space-x-8 block md:hidden mt-4">
         <Link href="/about">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             About
           </a>
         </Link>
         <Link href="/projects">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             Projects
           </a>
         </Link>
         <Link href="/experience">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             Experience
           </a>
         </Link>
         <Link href="/music">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             Music
           </a>
         </Link>
         <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
             Contact
           </a>
         </Link>
