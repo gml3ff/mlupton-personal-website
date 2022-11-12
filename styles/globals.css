@@ -76,6 +76,10 @@
   border-color: #00b3b3;
 }
 
+#profPic {
+  box-shadow: 1em 1em #808080;
+}
+
 html,
 body {
   padding: 0;
