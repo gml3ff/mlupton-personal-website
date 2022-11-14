@@ -35,12 +35,12 @@ export default function Navbar() {
         <div className="space-x-12 hidden md:block">
           <Link href="/about">
             <a
-              id="about" 
+              id="selection" 
               className={`text-2xl  ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
+              }` `${router.asPath === "/about" && ("border-solid")}`}
             >
               About{" "}
               {router.asPath === "/about" && (
@@ -57,12 +57,13 @@ export default function Navbar() {
                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
                   />
                 </svg>
+                
               )}
             </a>
           </Link>
           <Link href="/experience">
             <a
-              id="experience"
+              id="selection"
               className={`text-2xl  ${
                 router.asPath === "/experience"
                   ? "text-gray-800 font-bold dark:text-gray-400"
@@ -89,7 +90,7 @@ export default function Navbar() {
           </Link>
           <Link href="/projects">
             <a
-              id="projects"
+              id="selection"
               className={`text-2xl  ${
                 router.asPath === "/projects"
                   ? "text-gray-800 font-bold dark:text-gray-400"
@@ -116,7 +117,7 @@ export default function Navbar() {
           </Link>
           <Link href="/music">
             <a
-              id="music"
+              id="selection"
               className={`text-2xl  ${
                 router.asPath === "/music"
                   ? "text-gray-800 font-bold dark:text-gray-400"
@@ -143,7 +144,7 @@ export default function Navbar() {
           </Link>
           <Link href="/contact">
             <a
-              id="contact"
+              id="selection"
               className={`text-2xl  ${
                 router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"

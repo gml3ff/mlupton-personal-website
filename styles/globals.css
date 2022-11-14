@@ -11,6 +11,7 @@
   /*border-color: black;*/
   border-width: 1px;
   border-radius: 8px;
+  box-shadow: 1em 1em #808080;
 }
 
 #mainPageLink:hover {
@@ -19,58 +20,15 @@
   border-width: 1px;
   border-radius: 8px;
   /*border-color: black;*/
+  box-shadow: 1em 1em #242320;
 }
 
-#about {
+#selection {
   border-style: none none none none;
   border-width: 5px;
 }
 
-#about:hover {
-  border-style: none none solid none;
-  border-width: 5px;
-  border-color: #00b3b3;
-}
-
-#experience {
-  border-style: none none none none;
-  border-width: 5px;
-}
-
-#experience:hover {
-  border-style: none none solid none;
-  border-width: 5px;
-  border-color: #00b3b3;
-}
-
-#projects {
-  border-style: none none none none;
-  border-width: 5px;
-}
-
-#projects:hover {
-  border-style: none none solid none;
-  border-width: 5px;
-  border-color: #00b3b3;
-}
-
-#music {
-  border-style: none none none none;
-  border-width: 5px;
-}
-
-#music:hover {
-  border-style: none none solid none;
-  border-width: 5px;
-  border-color: #00b3b3;
-}
-
-#contact {
-  border-style: none none none none;
-  border-width: 5px;
-}
-
-#contact:hover {
+#selection:hover {
   border-style: none none solid none;
   border-width: 5px;
   border-color: #00b3b3;
