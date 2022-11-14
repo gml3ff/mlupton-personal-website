@@ -40,7 +40,7 @@ export default function Navbar() {
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
-              }` `${router.asPath === "/about" && ("border-solid")}`}
+              }`}
             >
               About{" "}
               {router.asPath === "/about" && (
