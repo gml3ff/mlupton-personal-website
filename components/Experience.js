@@ -1,12 +1,11 @@
 import userData from "@constants/data";
 import React from "react";
-import ReactPlayer from 'react-player';
 
 export default function Experience() {
   return (
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-25 dark:bg-gray-800 sticky top-0 ">
-          <h1 className=" text-5xl md:text-9xl font-bold py-10 text-center md:text-left">
+          <h1 className=" text-5xl md:text-9xl font-bold py-10 text-center md:text-left" >  
             Experience
           </h1>
       </div>
@@ -27,6 +26,7 @@ export default function Experience() {
               />
               <VideoWindow
                 video={exp.video}
+                product={exp.productLink}
               />
             </>
           ))}
@@ -59,11 +59,11 @@ const ExperienceCard = ({ title, desc, tech, highlights, year, company, companyL
   );
 };
 
-const VideoWindow = ({ video }) => {
+const VideoWindow = ({ video, product }) => {
   return (
     <div className="relative align-middle inline-block py-5 ">
       <video src={video} autoplay="autoplay" muted loop id="videoFrame" />
-      <h1 className="py-8 text-xl text-[#00b3b3]"><a href="https://ceos-cove.org/en/" id="selection">Click here for more</a></h1>
+      <h1 className="py-8 text-xl text-[#00b3b3]"><a href={product} id="selection">Click here for more</a></h1>
     </div>
   );
 };
