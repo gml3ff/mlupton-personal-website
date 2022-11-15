@@ -1,5 +1,6 @@
 import userData from "@constants/data";
 import React from "react";
+import ReactPlayer from 'react-player';
 
 export default function Experience() {
   return (
@@ -10,7 +11,7 @@ export default function Experience() {
           </h1>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="grid grid-cols-1 dark:bg-gray-900 max-w-xl mx-auto pt-20">
+        <div className="grid grid-cols-2 dark:bg-gray-900 max-w-6xl mx-auto pt-20 gap-x-16 gap-y-32">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <>
@@ -24,14 +25,9 @@ export default function Experience() {
                 company={exp.company}
                 companyLink={exp.companyLink}
               />
-              {idx === userData.experience.length - 1 ? null : (
-                <div className="divider-container flex flex-col items-center -mt-2">
-                  <div className="w-4 h-4 bg-green-500 rounded-full relative z-10">
-                    <div className="w-4 h-4 bg-green-500 rounded-full relative z-10 animate-ping"></div>
-                  </div>
-                  <div className="w-1 h-24 bg-gray-200 dark:bg-gray-500 rounded-full -mt-2"></div>
-                </div>
-              )}
+              <VideoWindow
+                video={exp.video}
+              />
             </>
           ))}
         </div>
@@ -57,6 +53,17 @@ const ExperienceCard = ({ title, desc, tech, highlights, year, company, companyL
       <ul className="text-gray-600 dark:text-gray-400 my-2 pl-8">
         {Object.keys(tech).map((key) => (<li className="list-disc">{tech[key]}</li>))}
       </ul>
+    </div>  
+    
+
+  );
+};
+
+const VideoWindow = ({ video }) => {
+  return (
+    <div className="relative align-middle inline-block py-5 ">
+      <video src={video} autoplay="autoplay" muted loop id="videoFrame" />
+      <h1 className="py-8 text-xl text-[#00b3b3]"><a href="https://ceos-cove.org/en/" id="selection">Click here for more</a></h1>
     </div>
   );
 };
