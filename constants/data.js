@@ -139,7 +139,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1l8Xe1A__T47zmE3bd5D3gYfUWJq-rdWBZ8IgMonN11k/edit?usp=sharing",
+    "https://docs.google.com/document/d/1l8Xe1A__T47zmE3bd5D3gYfUWJq-rdWBZ8IgMonN11k/preview",
   socialLinks: {
     instagram: "",
     twitter: "",
