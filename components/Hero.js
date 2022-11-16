@@ -11,7 +11,7 @@ export default function Hero() {
 
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
         <RoughNotationGroup show={true}>
-            <h1 className="text-2xl md:text-7xl font-bold text-gray-700 dark:text-gray-200 my-2">
+            <h1 className="text-2xl md:text-7xl font-bold text-[#006666] dark:text-[#99ffff] my-2">
               Morgan Lupton
             </h1>
             <h1 className="text-3xl md:text-5xl font-bold text-gray-400 dark:text-gray-200 my-2">

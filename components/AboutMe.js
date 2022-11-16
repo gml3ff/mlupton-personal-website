@@ -4,8 +4,8 @@ import userData from "@constants/data";
 export default function AboutMe() {
   return (
     <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-25 dark:bg-gray-800 sticky top-0 ">
-        <h1 className=" text-5xl md:text-9xl font-bold py-10 text-center md:text-left ">
+      <div className="max-w-6xl mx-auto h-25 sticky top-0 ">
+        <h1 className=" text-5xl md:text-9xl text-[#006666] dark:text-[#99ffff] font-bold py-10 text-center md:text-left ">
           About Me
         </h1>
       </div>
@@ -69,6 +69,16 @@ export default function AboutMe() {
                 </a>
               </div>
               <div className="flex flex-row justify-start items-center">
+                <a
+                  href={userData.socialLinks.instagram}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    Instagram
+                  </p>
+                </a>
               </div>
             </div>
           </div>

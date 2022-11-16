@@ -5,7 +5,6 @@
 @import 'fonts.css';
 
 #mainPageLink {
-  background-color: #ccffff;
   border-style: ridge;
   padding: 10px;
   /*border-color: black;*/
@@ -15,12 +14,11 @@
 }
 
 #mainPageLink:hover {
-  background-color: #00b3b3;
   border-style: groove;
   border-width: 1px;
   border-radius: 8px;
   /*border-color: black;*/
-  box-shadow: 1em 1em #242320;
+  box-shadow: 1em 1em #808080;
 }
 
 #selection {

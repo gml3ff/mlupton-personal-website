@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="flex md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
-        <div className="flex flex-col" id="mainPageLink">
+        <div className="flex flex-col bg-[#ccffff] hover:bg-[#00b3b3] dark:bg-[#00b3b3] dark:hover:bg-[#006666] shadow-[#808080]" id="mainPageLink">
           <Link href="/">
             <a>
               <h1 className="font-semibold text-2xl dark:text-gray-100">
