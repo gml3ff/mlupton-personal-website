@@ -24,113 +24,45 @@ export default function Projects() {
     <div className="max-w-6xl mx-auto  py-2 md:py-4">
       <div className="flex md:flex-row justify-between items-center">
         <div className="space-x-12 hidden md:block">
-          <Link href="/one-knob">
+          <Link href="#one-knob">
             <a
-              id="selection" 
-              className={`text-2xl  ${
-                router.asPath === "/one-knob"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+              className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
               One Knob{" "}
-              {router.asPath === "/one-knob" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-                
-              )}
             </a>
           </Link>
-          <Link href="/vacuum-stand">
+          <Link href="#vacuum-stand">
             <a
-              id="selection"
-              className={`text-2xl  ${
-                router.asPath === "/vacuum-stand"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+              className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
               Vacuum Stand{" "}
-              {router.asPath === "/vacuum-stand" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
             </a>
           </Link>
-          <Link href="/streaming-remote">
+          <Link href="#streaming-remote">
             <a
-              id="selection"
-              className={`text-2xl  ${
-                router.asPath === "/streaming-remote"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
+              className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
               Streaming Remote
-              {router.asPath === "/streaming-remote" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
             </a>
           </Link>
         </div>
 
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
-        <Link href="/one-knob">
-          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
-            One Knob
-          </a>
-        </Link>
-        <Link href="/vacuum-stand">
-          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
-            Vacuum Stand
-          </a>
-        </Link>
-        <Link href="/streaming-remote">
-          <a className="text-2xl font-normal text-gray-600 dark:text-gray-300">
-            Streaming Remote 
-          </a>
-        </Link>
-      </div>
     </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
-
+            <div className="grid grid-rows-1 md:grid-rows-2">
+            <h1 id="one-knob" className="text-3xl md:text-5xl text-[#006666]">One Knob</h1>
+              <p>A simple MIDI device for Ableton Live 11. Automatically maps to any clicked parameters without requiring any sort of MIDI template. Great for quickly adjusting parameters like filter cutoff without requiring any sort of device template. </p> </div>
+              <img></img>
+          <h1 id="vacuum-stand" className="text-3xl md:text-5xl text-[#006666]">Vacuum Stand</h1>
+            <div className="grid grid-rows-2 md:grid-rows-6">
+              <p></p>
+              <img></img>
+            </div>
+          <h1 id="streaming-remote" className="text-3xl md:text-5xl text-[#006666]">Streaming Remote</h1>
+            <div className="grid grid-rows-2 md:grid-rows-6">
+              <p></p>
+              <img></img>
+            </div>
         </div>
       </div>
     </section>
