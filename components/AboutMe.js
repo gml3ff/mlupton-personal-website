@@ -22,53 +22,12 @@ export default function AboutMe() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
-          <div className="inline-flex flex-col">
-            <div>
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Contact
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                <a
-                  href={`mailto:${userData.email}`}
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  E-mail: morgan@lupton.io
-                </a>
-              </p>
-            </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Resume
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                Find a direct link to my resume{" "}
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  here.
-                </a>{" "}
-              </p>
-            </div>
-            {/* Social Links */}
-            <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
-              Social Links
-            </h1>
-            <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.linkedin}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    LinkedIn
-                  </p>
-                </a>
-              </div>
-            </div>
+          <div className="text-xl text-[#006666] dark:text-[#99ffff] px-10 py-5 inline-flex flex-col leading-[3em]">
+            <ul className="list-square">
+              <li>E-mail: <a href="mailto:morgan@lupton.io" id="selection">{userData.email}</a></li>
+              <li><a href={userData.resumeUrl} id="selection">Link to Resume</a></li>
+              <li><a href={userData.resumeUrl} id="selection">My LinkedIn</a></li>
+            </ul>
           </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">

@@ -4,6 +4,9 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'class'
   theme: {
+    listStyleType: {
+      square: 'square',
+    },
     extend: {
       transitionDuration: {
         0: "0ms",
