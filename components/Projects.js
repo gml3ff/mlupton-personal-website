@@ -68,8 +68,8 @@ export default function Projects() {
           </div>
             
           <img src="vacuumstand_diagram.png" id="projectImage" />
-          <img src="vacbottom.JPG" id="projectImage" />
-          <img src="vacstand.JPG" id="projectImage" />
+          <img src="vacbottom.jpg" id="projectImage" />
+          <img src="vacstand.jpg" id="projectImage" />
           <div className="max-w-4xl"> 
             <h1 id="streaming-remote" className="text-3xl md:text-5xl text-[#006666]">Streaming Remote</h1>
             <br></br>
@@ -78,7 +78,7 @@ export default function Projects() {
             <p>An exercise in rendering and more complex modeling techniques in Fusion 360. Taking design cues from the Laserdisc remotes of the early 90s, this streaming remote design also includes a jog wheel for frame-by-frame scrolling. The size and shape was iterated upon by 3D printing multiple prototypes.</p>
           </div>
           <img src="remote_diagram.png" id="projectImage" />
-          <img src="remote_hand.JPG" id="projectImage" />
+          <img src="remote_hand.jpg" id="projectImage" />
           <img src="remote_angled.png" id="projectImage" />
         </div>
       </div>
