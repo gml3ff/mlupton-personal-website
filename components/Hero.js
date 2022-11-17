@@ -6,10 +6,10 @@ import userData from "@constants/data";
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
   return (
-    <div className="flex flex-row justify-center items-start overflow-hidden">
+    <div className="flex flex-row justify-center items-start overflow-hiddeni max-w-8xl mx-auto">
       {/* Text container */}
 
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+      <div className="w-full md:w-1/2 mx-auto text-left lg:p-20">
         <RoughNotationGroup show={true}>
             <h1 className="text-2xl md:text-7xl font-bold text-[#006666] dark:text-[#99ffff] my-2">
               Morgan Lupton
@@ -20,7 +20,7 @@ export default function Hero() {
         </RoughNotationGroup>
       </div>
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+      <div className="hidden lg:block relative w-full md:w-1/2 -mr-80 mt-20">
         <div className="w-1/2 ">
           <img src={userData.avatarUrl} alt="avatar" className=" shadow" id="profPic"/>
           <div className="flex flex-row justify-between mt-4">
