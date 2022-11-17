@@ -30,16 +30,16 @@ export default function Projects() {
                 MIDI Control Knob{" "}
               </a>
             </Link>
-            <Link href="#vacuum-stand">
-              <a
-                className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
-                Vacuum Stand{" "}
-              </a>
-            </Link>
             <Link href="#streaming-remote">
               <a
                 className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
                 Streaming Remote
+              </a>
+            </Link>
+            <Link href="#vacuum-stand">
+              <a
+                className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
+                Vacuum Stand{" "}
               </a>
             </Link>
           </div>
@@ -59,17 +59,6 @@ export default function Projects() {
           <img src="oneknob_diagram.png" id="projectImage" />
           
           <img src="knob_tall.png" id="projectImage" />
-          <div className="max-w-4xl">
-            <h1 id="vacuum-stand" className="text-3xl md:text-5xl text-[#006666]">Vacuum Stand</h1>
-            <br/>
-            <br/>
-            <br/>
-            <p>Dissatisfied with the excessive cost of the charging stand for the handheld vacuum I own, I decided to design my own! This model can be 3D printed fairly easily and is <a href="https://www.thingiverse.com/thing:5341293" className="text-[#00b3b3] hover:text-[#ccffff]" id="selection">available for download on Thingiverse</a></p>
-          </div>
-            
-          <img src="vacuumstand_diagram.png" id="projectImage" />
-          <img src="vacbottom.png" id="projectImage" />
-          <img src="vacstand.png" id="projectImage" />
           <div className="max-w-4xl"> 
             <h1 id="streaming-remote" className="text-3xl md:text-5xl text-[#006666]">Streaming Remote</h1>
             <br></br>
@@ -81,6 +70,17 @@ export default function Projects() {
           <img src="remote_hand.png" id="projectImage" />
           <img src="remote_angled.png" id="projectImage" />
         </div>
+        <div className="max-w-4xl">
+            <h1 id="vacuum-stand" className="text-3xl md:text-5xl text-[#006666]">Vacuum Stand</h1>
+            <br/>
+            <br/>
+            <br/>
+            <p>Dissatisfied with the excessive cost of the charging stand for the handheld vacuum I own, I decided to design my own! This model can be 3D printed fairly easily and is <a href="https://www.thingiverse.com/thing:5341293" className="text-[#00b3b3] hover:text-[#ccffff]" id="selection">available for download on Thingiverse</a></p>
+          </div>
+            
+          <img src="vacuumstand_diagram.png" id="projectImage" />
+          <img src="vacbottom.png" id="projectImage" />
+          <img src="vacstand.png" id="projectImage" />
       </div>
     </section>
   );
