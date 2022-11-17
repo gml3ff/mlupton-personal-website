@@ -41,7 +41,13 @@
   border-radius: 5px;
   object-fit: cover;
   box-shadow: 1em 1em #808080;
+}
 
+#projectImage {
+  align: center;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 1em 1em #808080;
 }
 
 html,
