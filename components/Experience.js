@@ -10,7 +10,7 @@ export default function Experience() {
           </h1>
       </div>
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-4">
-        <div className="grid grid-cols-2 dark:bg-gray-900 max-w-6xl mx-auto pt-20 gap-x-16 gap-y-32">
+        <div className="grid grid-cols-1 md:grid-cols-2 dark:bg-gray-900 max-w-6xl mx-auto pt-20 gap-x-16 gap-y-32">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <>
@@ -61,7 +61,7 @@ const ExperienceCard = ({ title, desc, tech, highlights, year, company, companyL
 
 const VideoWindow = ({ video, product }) => {
   return (
-    <div className="relative align-middle inline-block py-5 ">
+    <div className="relative video-window align-middle inline-block py-5 ">
       <video src={video} autoplay="autoplay" muted loop id="videoFrame" />
       <h1 className="py-8 text-xl text-[#00b3b3]"><a href={product} id="selection">Click here for more</a></h1>
     </div>
