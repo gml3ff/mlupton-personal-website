@@ -64,7 +64,7 @@ export default function Projects() {
             <br/>
             <br/>
             <br/>
-            <p>Dissatisfied with the excessive cost of the charging stand for the handheld vacuum I own, I decided to design my own! This model can be 3D printed fairly easily and is <a href="https://www.thingiverse.com/thing:5341293">available for download on Thingiverse</a></p>
+            <p>Dissatisfied with the excessive cost of the charging stand for the handheld vacuum I own, I decided to design my own! This model can be 3D printed fairly easily and is <a href="https://www.thingiverse.com/thing:5341293" className="text-[#00b3b3] hover:text-[#ccffff]" id="selection">available for download on Thingiverse</a></p>
           </div>
             
           <img src="vacuumstand_diagram.png" id="projectImage" />

@@ -38,7 +38,7 @@ export default function Navbar() {
               id="selection" 
               className={`text-2xl  ${
                 router.asPath === "/about"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? "font-bold text-[#00b3b3] dark:text-[#99ffff]"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -66,7 +66,7 @@ export default function Navbar() {
               id="selection"
               className={`text-2xl  ${
                 router.asPath === "/experience"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? " font-bold text-[#00b3b3] dark:text-[#99ffff]"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -93,7 +93,7 @@ export default function Navbar() {
               id="selection"
               className={`text-2xl  ${
                 router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? "text-[#00b3b3] dark:text-[#99ffff] font-bold"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
@@ -120,7 +120,7 @@ export default function Navbar() {
               id="selection"
               className={`text-2xl  ${
                 router.asPath === "/contact"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  ? "text-[#00b3b3] dark:text-[#99ffff] font-bold"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
