@@ -49,19 +49,19 @@ export default function Projects() {
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="grid grid-cols-2 dark:bg-gray-900 max-w-6xl mx-auto pt-20 gap-x-16 gap-y-32">
-          <div className="max-w-4xl max-h-4xl"><h1 id="one-knob" className="text-3xl md:text-5xl align-baseline text-[#006666]">MIDI Control Knob</h1>
+          <div className="max-w-4xl max-h-4xl">
+            <h1 id="one-knob" className="text-3xl md:text-5xl align-baseline text-[#006666]">MIDI Control Knob</h1>
           <br></br>
           <br/>
           <br/>
           <p>A simple MIDI device for Ableton Live. Built using Max MSP and using an Arduino Nano as the controller. Automatically maps to any clicked parameters without requiring any sort of MIDI template. Great for quickly adjusting parameters like filter cutoff without requiring any sort of device template. </p></div>
-          <div className="max-w-4xl"><video src="videos/KnobClip_2.mp4" autoplay="autoplay" muted loop id="videoFrame" /></div>
+          <div className="max-w-4xl max-h-4xl"><video src="videos/KnobClip_2.mp4" autoplay="autoplay" muted loop id="videoFrame" /></div>
           
-          <img src="oneknob_diagram.png" id="projectImage" />
+          <img src="oneknob_diagram.png" className="col-span-2" id="projectImage" />
           
-          <img src="knob_tall.png" id="projectImage" />
           <div className="max-w-4xl"> 
             <h1 id="streaming-remote" className="text-3xl md:text-5xl text-[#006666]">Streaming Remote</h1>
-            <br></br>
+            
             <br/>
             <br/>
             <p>An exercise in rendering and more complex modeling techniques in Fusion 360. Taking design cues from the Laserdisc remotes of the early 90s, this streaming remote design also includes a jog wheel for frame-by-frame scrolling. The size and shape was iterated upon by 3D printing multiple prototypes.</p>
@@ -69,18 +69,18 @@ export default function Projects() {
           <img src="remote_diagram.png" id="projectImage" />
           <img src="remote_hand.png" id="projectImage" />
           <img src="remote_angled.png" id="projectImage" />
-        </div>
-        <div className="max-w-4xl">
-            <h1 id="vacuum-stand" className="text-3xl md:text-5xl text-[#006666]">Vacuum Stand</h1>
-            <br/>
+        <div className="max-w-4xl max-h-4xl gap-4">
+            <h1 className="text-3xl md:text-5xl text-[#006666]" id="vacuum-stand">Vacuum Stand</h1>
+            <br></br>
             <br/>
             <br/>
             <p>Dissatisfied with the excessive cost of the charging stand for the handheld vacuum I own, I decided to design my own! This model can be 3D printed fairly easily and is <a href="https://www.thingiverse.com/thing:5341293" className="text-[#00b3b3] hover:text-[#ccffff]" id="selection">available for download on Thingiverse</a></p>
           </div>
-            
-          <img src="vacuumstand_diagram.png" id="projectImage" />
-          <img src="vacbottom.png" id="projectImage" />
           <img src="vacstand.png" id="projectImage" />
+          <img src="vacuumstand_diagram.png" id="projectImage" className="col-span-2"/>
+          
+          
+        </div>
       </div>
     </section>
   );
