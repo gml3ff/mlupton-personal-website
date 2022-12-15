@@ -36,6 +36,12 @@ export default function Projects() {
                 Streaming Remote
               </a>
             </Link>
+            <Link href="#thermometer">
+              <a
+                className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
+                Thermometer{" "}
+              </a>
+            </Link>
             <Link href="#vacuum-stand">
               <a
                 className="text-2xl text-[#004d4d] font-bold dark:text-gray-400 hover:border-4 rounded-sm p-2 border-[#008080]">
@@ -69,6 +75,19 @@ export default function Projects() {
           <img src="remote_diagram.png" id="projectImage" />
           <img src="remote_hand.png" id="projectImage" />
           <img src="remote_angled.png" id="projectImage" />
+          
+          <div className="max-w-4xl max-h-4xl gap-4">
+            <h1 className="text-3xl md:text-5xl text-[#006666]" id="thermometer">Thermometer</h1>
+            <br></br>
+            <br/>
+            <br/>
+            <p>Inspired by <a href="https://en.wikipedia.org/wiki/Computer_Space" className="text-[#00b3b3] hover:text-[#ccffff]" id="selection">the Computer Space arcade console from 1971,</a> this thermometer is powered by an Arduino Nano and a 1.4" LCD screen. Outside temperature is captured via a temperature probe placed outside the window.</p>
+          </div>
+          <img src="thermometer.png" id="projectImage" />
+  
+          
+          
+        
         <div className="max-w-4xl max-h-4xl gap-4">
             <h1 className="text-3xl md:text-5xl text-[#006666]" id="vacuum-stand">Vacuum Stand</h1>
             <br></br>
