@@ -47,7 +47,7 @@ const ExperienceCard = ({ title, desc, tech, highlights, year, company, companyL
       <p className="text-gray-600 dark:text-gray-400 my-2 pl-8">{desc}</p>
       <h1 className="font-extrabold text-lg text-gray-500">Highlights</h1>
       <ul className="text-gray-600 dark:text-gray-400 my-2 pl-8">
-        {Object.keys(highlights).map((key) => (<li className="list-disc" style="list-style-type:circle">{highlights[key]}</li>))}
+        {Object.keys(highlights).map((key) => (<li className="list-disc">{highlights[key]}</li>))}
       </ul>
       <h1 className="font-extrabold text-lg text-gray-500">Technologies</h1>
       <ul className="text-gray-600 dark:text-gray-400 my-2 pl-8">
