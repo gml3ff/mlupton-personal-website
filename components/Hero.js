@@ -15,7 +15,7 @@ export default function Hero() {
               Morgan Lupton
             </h1>
             <h1 className="text-3xl md:text-5xl font-bold text-gray-400 dark:text-gray-200 my-2">
-              Sales Engineer based in Washington D.C.
+              Sales Engineer based in Copenhagen, Denmark
             </h1>
         </RoughNotationGroup>
       </div>
