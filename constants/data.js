@@ -4,8 +4,8 @@ const userData = {
   designation: "A Personal Homepage",
   avatarUrl: "/avatar.png",
   email: "morgan@lupton.io",
-  phone: "+1 434 209 0123",
-  address: "Washington, D.C., United States",
+  phone: "+45 31 68 92 80",
+  address: "Copenhagen, Denmark",
   projects: [
     {
       title: "Tailwind Master Kit",
