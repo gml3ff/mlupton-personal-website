@@ -8,7 +8,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Morgan Lupton - Product-focused Sales Engineer"
-      description="Washington, D.C. based Sales Engineer with an emphasis on delivering high quality products and services"
+      description="Copenhagen, Denmark based Technical Sales Engineer with a programming and cloud operations background"
     >
       <Hero />
     </ContainerBlock>
